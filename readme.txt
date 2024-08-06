@@ -1,5 +1,6 @@
 *** Ejecucion ***
 
+Pagina: https://petstore.swagger.io/
 1. los servicios ya contienen la informacion necesaria para su Ejecucion
 2. para abrir la consola de ejecucion de cypress, en la terminal ingresar el comando "npx cypress open"
 3. Seleccionar la ventana o recuadro "E2E Testing"

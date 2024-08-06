@@ -1,5 +1,7 @@
 *** Flujo de casos de prueba ***
 
+Pagina:https://petstore.swagger.io/
+
 1. Registrar usuario
 2. Consultar usuario
 3. Actualizar usuario
