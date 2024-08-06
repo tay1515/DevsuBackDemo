@@ -1,0 +1,22 @@
+{
+  "name": "devsu_api_demo",
+  "version": "1.0.0",
+  "description": "Demo Devsu",
+  "main": "index.js",
+  "scripts": {
+    "test": "REST, CYPRESS, API"
+  },
+  "keywords": [
+    "REST",
+    "CYPRESS",
+    "API"
+  ],
+  "author": "TYRONE ZAPATA",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.13.2"
+  },
+  "dependencies": {
+    "cypress-plugin-api": "^2.11.2"
+  }
+}

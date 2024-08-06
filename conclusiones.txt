@@ -1,0 +1,22 @@
+*** Flujo de casos de prueba ***
+
+1. Registrar usuario
+2. Consultar usuario
+3. Actualizar usuario
+4. Eliminar usuario
+
+
+*** Consideraciones ***
+
+1. Se debe de tener presente que los casos de prueba son consecutivos y se puede presentar el caso que al registrar un usuario
+   al intentar ejecutar la consulta falle porque el servicio toma tiempo para retener y tener disponible la informacion del usuario
+   (solo se presentaria en el consultar).
+   - Se ajusta el tiempo de espera con un Wait de 15000 despues de la ejecucion del metodo registrar para dar tiempo al servicio de tener disponible la informacion del usuario
+    Observacion: Esta ejecucion se podria mejorar con un while que esperara hasta que el servicio tuviera disponible el usuario.
+
+2. lasvalidaciones se trataron de hacer lo mejor posible, ya que los servicios en su response carecia de informacion.
+
+3. en el metodo update se utiliza una libreria que actualiza la coleccion del usuario cada vez que se ejecuta, se intento hacer consecutivos
+   el response del metodo pero este no devuelve informacion del usuario. entonces se setea los valores y estos se actualizan.
+
+
